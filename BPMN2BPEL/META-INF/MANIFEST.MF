@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: BPMN2BPEL Plug-in
+Bundle-SymbolicName: BPMN2BPEL;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: bpelfactory.Activator
+Bundle-Vendor: Luciano Garcia-Banuelos
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.bpel.model,
+ org.eclipse.emf.common,
+ org.eclipse.emf.ecore,
+ org.eclipse.wst.wsdl,
+ org.eclipse.stp.bpmn,
+ org.eclipse.bpel.ui,
+ javax.wsdl,
+ org.eclipse.stp.bpmn.diagram
+Eclipse-LazyStart: true
+Bundle-ClassPath: lib/antlr-3.1b1.jar,
+ lib/jsontools-core-1.5.jar,
+ lib/e4x-grammar-0.1.jar,
+ lib/dom4j-1.6.1.jar,
+ .
